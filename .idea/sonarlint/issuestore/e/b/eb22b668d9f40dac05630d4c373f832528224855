@@ -1,0 +1,25 @@
+
+0
+java:S1220""Move this file to a named package.
+Z
+java:S1854
+"8Remove this useless assignment to local variable "gain".(öÃ‡åşÿÿÿÿ8Áîë¯¾0
+V
+java:S1854"9Remove this useless assignment to local variable "years".(˜¾ÈÈ8Çè¯¾0
+[
+java:S1854">Remove this useless assignment to local variable "percentage".(–ÂËô8è»ê¯¾0
+R
+java:S1854"<Remove this useless assignment to local variable "invested".(İ—§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎĞùÙ
+C
+java:S1481"-Remove this unused "invested" local variable.(İ—§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ææ·›
+L
+java:S1481"/Remove this unused "percentage" local variable.(–ÂËô8Ìè¯¾0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±Íù³
+G
+java:S1481"*Remove this unused "years" local variable.(˜¾ÈÈ8Òáê¯¾0
+K
+java:S1481
+")Remove this unused "gain" local variable.(öÃ‡åşÿÿÿÿ8Ïîë¯¾0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±Íù³8Îîë¯¾0
