@@ -4,8 +4,6 @@ public class prg27 {
   public static void main(String[] args){
     boolean playAgain = true;
     do{
-
-
     Random rn = new Random();
     int random = rn.nextInt(10) + 1;
     int score = 5;
