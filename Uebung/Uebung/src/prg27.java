@@ -30,6 +30,11 @@ public class prg27 {
     }
       System.out.println("Möchten sie erneut spielen? (j / n)");
     String input = new java.util.Scanner(System.in).nextLine();
+
+     /* playAgain = switch (input) {
+        case "J", "j" -> true;
+        default -> false;
+      };*/
     switch(input){
       case "J":
       case "j":
@@ -39,6 +44,7 @@ public class prg27 {
         playAgain = false;
         break;
     }
+
     }while(playAgain);
   }
 }
