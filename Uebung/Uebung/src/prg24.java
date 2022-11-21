@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class pgr24 {
+public class prg24 {
   public static void main(String[] args){
     Random rn = new Random();
     int random = rn.nextInt(10) + 1;
