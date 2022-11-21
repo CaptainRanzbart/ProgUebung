@@ -1,4 +1,4 @@
-public class ScannerExample {
+public class prg8 {
   public static void main(String[] args) {
     System.out.print("Wie viel Kapital in € wurde investiert? ");
     double invested = new java.util.Scanner(System.in).nextDouble();
