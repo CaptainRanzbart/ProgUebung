@@ -1,4 +1,4 @@
-package prg33;
+package prg33to37;
 
 public class Fraction3Main {
   public static void main(String[] args) {
