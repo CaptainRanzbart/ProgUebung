@@ -2,18 +2,31 @@ import java.util.Random;
 
 public class prg23 {
   public static void main(String[] args){
-    Random rn = new Random();
-    int random = rn.nextInt(10) + 1;
+    Random random1 = new Random();
+    int random = random1.nextInt(10) + 1;
+    int guess = 99;
+    int count = 0;
 
     System.out.println("Rate doch mal welche Zahl ich mir ausgedacht habe!");
     while(true){
-      int guess = new java.util.Scanner(System.in).nextInt();
+      count += 1;
+      guess = new java.util.Scanner(System.in).nextInt();
       if(guess == random){
         System.out.println("Richtig die ausgedachte Zahl war " + random);
-        break;
+       break;
       }else {
-        System.out.println("Falsch! Probiers doch nochmal!");
+        if(count < 3){
+          System.out.println("Falsch! Probiers doch nochmal!");
+        }else{
+          System.out.println("Du hast mehr als drei Versuche gebraucht und verloren!");
+          break;
+        }
       }
     }
+
+
+
+
+
   }
 }

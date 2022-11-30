@@ -12,7 +12,6 @@ public class prg32 {
     double current = (Math.pow(-1,i)/(2*i + 1))*4;
     output += current;
     }
-
     System.out.println("Done calculating!");
     return output;
   }

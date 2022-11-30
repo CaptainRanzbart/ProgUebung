@@ -29,7 +29,7 @@ public class prg27 {
       System.out.println("Richtig die ausgedachte Zahl war " + random + "! Sie haben eine Punktzahl von " + score + " erreicht!");
     }
       System.out.println("Möchten sie erneut spielen? (j / n)");
-    String input = new java.util.Scanner(System.in).nextLine();
+      String input = new java.util.Scanner(System.in).nextLine();
 
      /* playAgain = switch (input) {
         case "J", "j" -> true;
